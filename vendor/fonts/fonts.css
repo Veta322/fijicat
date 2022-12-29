@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Inkulinati';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./Inkulinati-Regular.woff") format("woff"),
+    url("./Inkulinati-Regular.woff2") format("woff2");
+}
+

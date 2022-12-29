@@ -1,0 +1,77 @@
+@import url(../vendor/fonts/fonts.css);
+@import url(../vendor/normalize.css);
+
+.page {
+  font-family: 'Inkulinati', 'Arial', 'Helvetica', sans-serif;
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  background-color: rgb(30, 89, 69);
+  padding: 20px;
+}
+
+.artist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.artist__pic {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.artist__title {
+  text-align: center;
+  font-size: 50px;
+  line-height: 45px;
+}
+
+.songs {
+  width: 700px;
+  height: 500px;
+}
+
+.footer {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.spotify__icon {
+  width: 300px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.spotify__icon:hover{
+  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+}
+
+.footer__icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+}
+
+.footer__icon:hover{
+  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+}
