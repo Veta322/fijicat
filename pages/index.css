@@ -33,6 +33,7 @@
   height: 300px;
   object-fit: contain;
   border-radius: 8px;
+  box-shadow: 0px 4px 10px black;
 }
 
 .artist__title {
@@ -56,13 +57,20 @@
 
 }
 
-.spotify__icon {
-  width: 300px;
-  height: 150px;
-  border-radius: 20px;
+.platform{
+  display: flex;
+  flex-direction: row;
+  gap:20px;
 }
 
-.spotify__icon:hover{
+.platform__icon {
+  width: 250px;
+  height: 140px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.platform__icon:hover {
   box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
 }
 
@@ -70,8 +78,9 @@
   width: 50px;
   height: 50px;
   border-radius: 8px;
+  
 }
 
-.footer__icon:hover{
+.footer__icon:hover {
   box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
 }
