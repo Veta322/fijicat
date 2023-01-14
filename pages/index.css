@@ -67,11 +67,12 @@
   display: flex;
   flex-direction: row;
   gap:20px;
+  margin-bottom: 5px;
 }
 
 .platform__icon {
-  width: 250px;
-  height: 140px;
+  width: 220px;
+  height: 120px;
   border-radius: 20px;
   object-fit: cover;
   transition: all .3s;
